@@ -1,4 +1,4 @@
-package com.yourcaryourway.chat;
+package com.yourcaryourway.chat.model;
 
 import java.time.Instant;
 

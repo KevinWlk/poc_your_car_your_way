@@ -1,4 +1,4 @@
-package com.yourcaryourway.chat;
+package com.yourcaryourway.chat.configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
