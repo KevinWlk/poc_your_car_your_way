@@ -16,7 +16,7 @@ public class ChatController {
     @MessageMapping("/chat.send")
     @SendTo("/topic/chat")
     public ChatMessage sendMessage(@Payload ChatMessage message) {
-        message.setTimestamp(Instant.parse(LocalTime.now().format(DateTimeFormatter.ofPattern("HH:mm:ss"))));
-        return message;
+        message.setTimestamp(Instant.now());
+    return message;
     }
 }

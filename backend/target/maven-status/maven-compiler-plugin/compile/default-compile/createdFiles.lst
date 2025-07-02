@@ -1,4 +1,4 @@
+com/yourcaryourway/chat/configuration/WebSocketConfig.class
 com/yourcaryourway/YourCarYourWayApplication.class
-com/yourcaryourway/chat/ChatController.class
-com/yourcaryourway/chat/WebSocketConfig.class
-com/yourcaryourway/chat/ChatMessage.class
+com/yourcaryourway/chat/model/ChatMessage.class
+com/yourcaryourway/chat/controller/ChatController.class
