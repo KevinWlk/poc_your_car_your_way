@@ -72,4 +72,4 @@ Serveur Spring Boot WebSocket
 
 ## Auteur
 
-Kevin W. — *YourCarYourWay*#
+Kevin W. — *YourCarYourWay*
