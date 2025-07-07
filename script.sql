@@ -112,27 +112,3 @@ CREATE TABLE `CHAT`(
     FOREIGN KEY (`conversationid`) REFERENCES `CONVERSATIONS`(`id`),
     FOREIGN KEY (`messagesenderid`) REFERENCES `USERS`(`id`)
 );
-
-INSERT INTO AGENCIES(name,address)
-VALUES('agency', 'address');
-
-INSERT INTO USERS(firstname, lastname, email, password, birthdate, type)
-VALUES("firstname1", "lastname1", "email1@mail.com", "password1", "2023-12-22", "customer"),
-	  ("firstname2", "lastname2", "email2@mail.com", "password2", "2023-12-22", "customer_service");
-      ("firstname3", "lastname3", "email3@mail.com", "password3", "2023-12-22", "customer"),
-      ("firstname4", "lastname4", "email4@mail.com", "password4", "2023-12-22", "customer"),
-      ("firstname5", "lastname5", "email5@mail.com", "password5", "2023-12-22", "customer_service"),
-      ("firstname6", "lastname6", "email6@mail.com", "password6", "2023-12-22", "customer_service"),
-      ("firstname7", "lastname7", "email7@mail.com", "password7", "2023-12-22", "customer_service");
-
-INSERT INTO CUSTOMERS(address, userid) 
-VALUES('address',1),
-      ('address',3),
-      ('address',4);
-
-
-INSERT INTO CUSTOMER_SERVICE(agencyid, userid)
-VALUES(1,2),
-      (1,5),
-      (1,6),
-      (1,7);
